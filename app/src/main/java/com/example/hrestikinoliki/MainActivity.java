@@ -31,7 +31,7 @@ public static final String SIGN = "SIGN";
         start.setOnClickListener(this);
 
 
-        Toast.makeText(this, "Fill all fields", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Fill all fields", Toast.LENGTH_SHORT).show();;
 
 
     }
