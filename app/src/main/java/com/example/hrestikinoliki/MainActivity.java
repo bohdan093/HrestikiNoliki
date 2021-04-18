@@ -33,6 +33,7 @@ public static final String SIGN = "SIGN";
 
         Toast.makeText(this, "Fill all fields", Toast.LENGTH_SHORT).show();;
         Toast.makeText(this, "Fill all fields", Toast.LENGTH_SHORT).show();;
+        Toast.makeText(this, "Fill all fields", Toast.LENGTH_SHORT).show();;
 
 
     }
