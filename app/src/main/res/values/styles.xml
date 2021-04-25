@@ -5,6 +5,18 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+
+<style name = "generalText">
+    <item name = "android:textColor"> @color/white</item>
+</style>
+    <style name="buttons">
+        <item name="android:backgroundTint">@color/button</item>
+    </style>
+
+    <style name="but">
+        <item name="android:backgroundTint">@color/colorPrimary</item>
     </style>
 
 </resources>

@@ -19,6 +19,7 @@
 
         <EditText
             android:id="@+id/first_name"
+            style="@style/generalText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -27,6 +28,7 @@
 
         <EditText
             android:id="@+id/second_name"
+            style="@style/generalText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -36,13 +38,13 @@
 
     <TextView
         android:id="@+id/textView3"
+        style="@style/generalText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
         android:layout_marginTop="72dp"
         android:layout_marginEnd="52dp"
         android:text="Enter names of players"
-        android:textColor="#10954E"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.4"
@@ -51,12 +53,13 @@
 
     <Button
         android:id="@+id/start"
+        style="@style/but"
+        android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="161dp"
         android:layout_marginEnd="162dp"
         android:layout_marginBottom="156dp"
-        android:backgroundTint="#10954E"
         android:text="start"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,8 +69,7 @@
         android:id="@+id/radioGroup"
         android:layout_width="310dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
-        android:layout_marginEnd="49dp"
+        android:layout_marginStart="75dp"
         android:layout_marginBottom="54dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@+id/start"
@@ -76,6 +78,7 @@
 
         <RadioButton
             android:id="@+id/cross"
+            style="@style/generalText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -83,6 +86,7 @@
 
         <RadioButton
             android:id="@+id/zero"
+            style="@style/generalText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -91,10 +95,10 @@
 
     <TextView
         android:id="@+id/textView4"
+        style="@style/generalText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Choose a sign of first player"
-        android:textColor="#10954E"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/radioGroup"
         app:layout_constraintEnd_toEndOf="parent"
